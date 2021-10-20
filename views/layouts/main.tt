@@ -14,8 +14,8 @@
 <body>
     <div class="container-fluid">
       <div class="row-fluid">
-        <div class="span4">[% INCLUDE config.tt %]</div>
-        <div class="span8">[% content %]</div>
+        <div class="span3">[% INCLUDE config.tt %]</div>
+        <div class="span9">[% content %]</div>
       </div>
     </div>
 </body>

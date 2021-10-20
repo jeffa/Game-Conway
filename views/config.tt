@@ -19,7 +19,18 @@
 </tr>
 <tr>
     <td>Wechsler Code</td>
-    <td><input type="text" name="wechsler" /></td>
+    <td>
+        <select name="wechsler" style="width: 120px">
+            <option value=""></option>
+            <!-- <option value="xq4_27deee6">xq4_27deee6</option> -->
+            <option value="xp6_w8o0uh224a4z32">xp6_w8o0uh224a4z32</option>
+            <option value="xp30_ccx8k2s3zy3103y531e8">xp30_ccx8k2s3zy3103y531e8</option>
+            <option value="xp3_0ggmligkcz32w46">xp3_0ggmligkcz32w46</option>
+            <option value="xs31_0ca178b96z69d1d96">xs31_0ca178b96z69d1d96</option>
+            <option value="xp30_w33z8kqrqk8zzzx33">xp30_w33z8kqrqk8zzzx33</option>
+            <option value="xp2_31a08zy0123cko">xp2_31a08zy0123cko</option>
+        </select>
+    </td>
 </tr>
 <!--
 <tr>
@@ -42,17 +53,7 @@
 </form>
 
 <p>
-<ul>
-<li>xq4_27deee6</li>
-<li>xp6_w8o0uh224a4z32</li>
-<li>xp30_ccx8k2s3zy3103y531e8</li>
-<li>...</li>
-<li>xp3_0ggmligkcz32w46</li>
-<li>xs31_0ca178b96z69d1d96</li>
-<li>xp30_w33z8kqrqk8zzzx33</li>
-<li>xp2_31a08zy0123cko</li>
-</ul>
-</p>
 More at <a href="https://catagolue.hatsya.com/home">Catagolue</a>
 See also <a href="https://www.conwaylife.com/wiki/Apgcode">apgcode</a>
+</p>
 
