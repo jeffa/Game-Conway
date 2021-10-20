@@ -34,8 +34,8 @@ get '/table' => sub {
     }
 
     unless (params->{wechsler}) {
-        my $rows = params->{rows} || 20;
-        my $cols = params->{cols} || 20;
+        my $rows = params->{rows} || 15;
+        my $cols = params->{cols} || 15;
         $rows = 20 if $rows =~ /\D/;
         $cols = 20 if $cols =~ /\D/;
         push @args, ( fill => "${rows}x${cols}" );
