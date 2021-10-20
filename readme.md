@@ -1,12 +1,18 @@
-Sandbox-Spreadsheet
+Game-Conway
 ===================
-Interactive Demo for [Spreadsheet::HTML](https://metacpan.org/pod/Spreadsheet::HTML)
+Conway's Game of Life implemented with [Spreadsheet::HTML](https://metacpan.org/pod/Spreadsheet::HTML)
 
 Synopsis
 --------
 Launch application to [local port 3000](http://localhost:3000)
+
 ```
 perl bin/app.pl
+```
+
+Change port with -p
+```
+perl bin/app.pl -p 3001
 ```
 
 Requires
@@ -14,8 +20,8 @@ Requires
 * YAML
 * Dancer
 * Template
-* Text::CSV
 * Spreadsheet::HTML
+* Encode::Wechsler
 ```
-cpanm YAML Dancer Template Text::CSV Spreadsheet::HTML
+cpanm YAML Dancer Template Spreadsheet::HTML Encode::Wechsler
 ```
