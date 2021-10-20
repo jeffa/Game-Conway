@@ -17,11 +17,11 @@ perl bin/app.pl -p 3001
 
 Requires
 --------
-* YAML
 * Dancer
 * Template
 * Spreadsheet::HTML
 * Encode::Wechsler
+* Color::Spectrum
 ```
-cpanm YAML Dancer Template Spreadsheet::HTML Encode::Wechsler
+cpanm Dancer Template Spreadsheet::HTML Encode::Wechsler Color::Spectrum
 ```
