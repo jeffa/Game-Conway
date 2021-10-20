@@ -1,0 +1,58 @@
+<form action="javascript:void(0);" id="config" name="config" class="navbar-search">
+
+<table>
+<tr>
+    <td>Rows</td>
+    <td><input type="text" name="rows" /></td>
+</tr>
+<tr>
+    <td>Columns</td>
+    <td><input type="text" name="cols" /></td>
+</tr>
+<tr>
+    <td>On Color</td>
+    <td><input type="text" name="on" /></td>
+</tr>
+<tr>
+    <td>Off Color</td>
+    <td><input type="text" name="off" /></td>
+</tr>
+<tr>
+    <td>Wechsler Code</td>
+    <td><input type="text" name="wechsler" /></td>
+</tr>
+<!--
+<tr>
+    <td>Image Link</td>
+    <td><input type="text" name="url" /></td>
+</tr>
+<tr>
+    <td>Image Alpha</td>
+    <td><input type="text" name="alpha" /></td>
+</tr>
+-->
+<tr>
+    <td>Fade</td>
+    <td><input type="checkbox" value="1" name="fade" /></td>
+</tr>
+</table>
+
+<button class="btn btn-primary" type="button" onclick="javascript: fetch_table()">Generate</button>
+
+</form>
+
+<p>
+<ul>
+<li>xq4_27deee6</li>
+<li>xp6_w8o0uh224a4z32</li>
+<li>xp30_ccx8k2s3zy3103y531e8</li>
+<li>...</li>
+<li>xp3_0ggmligkcz32w46</li>
+<li>xs31_0ca178b96z69d1d96</li>
+<li>xp30_w33z8kqrqk8zzzx33</li>
+<li>xp2_31a08zy0123cko</li>
+</ul>
+</p>
+More at <a href="https://catagolue.hatsya.com/home">Catagolue</a>
+See also <a href="https://www.conwaylife.com/wiki/Apgcode">apgcode</a>
+
